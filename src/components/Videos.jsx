@@ -3,6 +3,7 @@ import React                                from "react";
 import { ChannelCard, Loader, VideoCard }   from "./";
 
 const Videos = ({ videos, direction }) => {
+    console.log(videos)
     if(!videos?.length) return <Loader />;
 
   return (
